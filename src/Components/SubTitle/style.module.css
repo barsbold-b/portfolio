@@ -1,0 +1,18 @@
+.SubTitle{
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 10px 5px;
+  z-index: 1;
+  min-width: 12rem;
+  height: 2.5rem;
+  text-align: center;
+  white-space: pre;
+  
+}
+.Blur{
+  background-color: #221E2201;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}

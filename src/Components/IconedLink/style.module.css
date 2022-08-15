@@ -1,0 +1,28 @@
+.IconedLink{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #c8c8c8;
+  margin-bottom: 2rem;
+  min-width: 8rem;
+  cursor: pointer;
+  position: relative;
+}
+.IconedLink:last-child{
+  margin-bottom: 0;
+}
+.ToolTip{
+  visibility: hidden;
+  background-color: black;
+  color: #c8c8c8;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 2;
+  left: 105%;
+  width: max-content;
+}
+.IconedLink:hover .ToolTip{
+  visibility: visible;
+}

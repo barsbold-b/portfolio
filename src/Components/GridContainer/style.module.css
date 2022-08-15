@@ -1,0 +1,6 @@
+.GridContainer{
+  display: grid;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,31 @@
+.Card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.More{
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  color: #832099;
+  min-width: 100%;
+  z-index: 1;
+  padding: 1rem;
+}
+.Card:hover .More{
+  display: block;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

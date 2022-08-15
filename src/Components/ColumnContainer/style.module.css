@@ -1,0 +1,7 @@
+.ColumnContainer{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
