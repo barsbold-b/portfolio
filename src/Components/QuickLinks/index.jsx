@@ -8,7 +8,7 @@ const QuickLinks = () => {
     {
       name: "github",
       displeyName: "Git-Hub",
-      action: function () {
+      action: () => {
         window.open("https://github.com/Saraba-alt", "_blank");
       },
       toolTipText: "Click to go to GitHub profile",
@@ -16,7 +16,7 @@ const QuickLinks = () => {
     {
       name: "discord",
       displeyName: "Discord",
-      action: function () {
+      action: () => {
         navigator.clipboard.writeText("#9043");
       },
       toolTipText: "Click to copy discord ID",
